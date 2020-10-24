@@ -23,3 +23,6 @@ Mounting-:When a component is mounted it means that it's render reprsetaion(html
 componentWillMount() lifecycle hook is primarily used to implement server-side logic before the actual rendering happens, such as making an API call to the server. In this guide, you will learn to use componentWillMount() and make API calls after the initial component rendering.
 
 The <Switch /> component will only render the first route that matches/includes the path. Once it finds the first route that matches the path, it will not look for any other matches. Not only that, it allows for nested routes to work properly, which is something that <Router /> will not be able to handle
+
+https://medium.com/wesionary-team/react-functional-components-vs-class-components-86a2d2821a22
+func vs class comp
