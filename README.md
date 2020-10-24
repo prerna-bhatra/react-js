@@ -16,3 +16,8 @@ Props are basically kind of global variable or object. Passing and Accessing pro
 
 Sometimes we might want to update the component manually. This can be achieved using the forceUpdate() method.
 examle of ecommrece where we remove from the cart and the data gets deleted from localstorage but component is not updated and we still see the data in page and when we refresh the page then it goes so we forceupadet so that page refresh and data remove from page also
+
+
+Mounting-:When a component is mounted it means that it's render reprsetaion(html) is inserted into dom
+(into index.js root )
+componentWillMount() lifecycle hook is primarily used to implement server-side logic before the actual rendering happens, such as making an API call to the server. In this guide, you will learn to use componentWillMount() and make API calls after the initial component rendering.
